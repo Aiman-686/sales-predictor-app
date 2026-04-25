@@ -45,3 +45,19 @@ This project is a **Machine Learning web application** that predicts product sal
 ```bash
 pip install -r requirements.txt
 streamlit run app.py
+---
+
+## 🌐 Live Demo
+🚀 Try the app here:  
+👉 [Click to Open Live App](https://sales-predictor-app-xejgndstzdotfovesqk9zb.streamlit.app/)
+
+---
+
+## 👨‍💻 Author
+**Aiman Ejaz**  
+📌 Machine Learning Enthusiast  
+📌 Building real-world AI projects using Python  
+
+---
+
+⭐ If you like this project, don’t forget to star the repo!
