@@ -48,9 +48,8 @@ streamlit run app.py
 ---
 
 ## 🌐 Live Demo
-🚀 Try the app here:  
-👉 [Click to Open Live App](https://sales-predictor-app-xejgndstzdotfovesqk9zb.streamlit.app/)
-
+🚀 Live App:  
+👉 https://sales-predictor-app-xejgndstzdotfovesqk9zb.streamlit.app/
 ---
 
 ## 👨‍💻 Author
