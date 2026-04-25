@@ -49,7 +49,7 @@ streamlit run app.py
 
 ## 🌐 Live Demo
 🚀 Try the app here:  
-👉 [Launch App](https://sales-predictor-app-xejgndstzdotfovesqk9zb.streamlit.app/)
+👉 https://sales-predictor-app-xejgndstzdotfovesqk9zb.streamlit.app/
 ---
 
 ## 👨‍💻 Author
