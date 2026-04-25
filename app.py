@@ -1,19 +1,20 @@
 import streamlit as st
-import pandas as pd
 import numpy as np
-import sklearn
 import pickle
 
+model = pickle.load(open('linear_regression_model.pkl', 'rb'))
 
-model = pickle.load(open('linear_regression_model.pkl','rb'))
+st.title("📊 Sales Prediction App (Linear Regression)")
+st.write("Predict sales using TV, Radio, and Newspaper budget")
 
-# let's create web app
-st.title("Scikit-learn Linear Regression model")
-tv = st.text_input('Enter TV sales...')
+tv = st.text_input("Enter TV sales...")
 radio = st.text_input("Enter radio sales....")
 newspaper = st.text_input("Enter newspaper sales.....")
 
 if st.button("predict"):
-    features = np.array([[tv,radio,newspaper]], dtype=np.float64)
-    results = model.predict(features).reshape(1,-1)
-    st.write("Predicted sale::::", results[0])
+    try:
+        features = np.array([[float(tv), float(radio), float(newspaper)]])
+        results = model.predict(features)
+        st.write("Predicted sale::::", results[0])
+    except:
+        st.error("Please enter valid numeric values")
